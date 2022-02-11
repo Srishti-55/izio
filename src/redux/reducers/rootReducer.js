@@ -11,7 +11,7 @@ import authReducer from './authReducer'
 
 const rootReducer = combineReducers({
     document:documentReducer,
-    contact: contactReducer.apply,
+    contact: contactReducer,
     education : educationReducer,
     firebase: firebaseReducer,
     firestore: firestoreReducer,
